@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800;900&family=Roboto:wght@400;700;900&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+.navbar{
+    background-color: rgba(0, 0, 0, 0.062);
+    padding: 30px;
+    border-radius: 5px;
+    border-bottom: 2px solid #F4D03F;
+}
+
+.nav-link{
+    color: white;
+    font-weight: bold;
+}
+
+.nav-link:hover{
+    color: #F4D03F;
+}
+
+a .nav-link:focus{
+    color: #F4D03F;
+}
+
+.navbar-brand{
+    font-weight: bolder;
+    font-size: x-large;
+    background-color: black;
+    padding: 10px;
+}
+
+.navbar-brand:hover{
+    color: white;
+}
+span{
+    color: #F4D03F ;
+}
+
+a{
+    color: white;
+}
+
+.active{
+     color: #F4D03F ;
+}
+
+div ul{
+    float: right;
+    display: flex;
+    justify-content: right;
+}
+
+.bg-img {
+    /* The image used */
+    /* background-image: url("03.jpg"); */
+  
+    /* min-height: 1080px; */
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* Needed to position the navbar */
+    position: relative;
+  }
+
+.slide{
+    min-height: 1080px;
+}
+
+.f-title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 5em; 
+}
+
+.carousel-caption{
+    padding-bottom: 300px;
+}
+
+.descrip{
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
